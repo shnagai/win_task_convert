@@ -20,8 +20,8 @@ match1 = 'version="1.1"'
 rep1 = 'version="1.2"'
 match2 = '</Principal>'
 rep2 = '  <RunLevel>HighestAvailable</RunLevel>\r\n    </Principal>'
-match3 = 'BATCHSRV1'
-rep3 = 'BATCHSRV4'
+match3 = '[Old_Hostname]'
+rep3 = '[New_Hostname]'
 
 def main():
     for tf in file_name:
